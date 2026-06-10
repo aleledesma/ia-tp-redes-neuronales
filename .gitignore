@@ -1,0 +1,16 @@
+# Entorno virtual
+venv/
+
+# Resultados, figuras y PDFs generados
+results/
+assets/
+*.pdf
+
+# Scripts de generacion de PDFs (no forman parte de la red neuronal)
+src/make_report.py
+src/make_guide.py
+src/_probe_dataset.py
+
+# Cache de Python
+__pycache__/
+*.pyc
